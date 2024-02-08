@@ -26,11 +26,11 @@ def jogar():
     while True:
         print("Quantos anos edu tem?:")
         print("-" * 50)
-        print(" A: 16 anos" , "\n" , "B: 17 anos" , "\n" , "C: 18 anos")
+        print(" A: 16 anos", "\n", "B: 17 anos", "\n", "C: 18 anos")
         print("-" * 50)
         escolha = input("escolha:").upper()
         if escolha not in ["B"]:
-            print("-" * 50, "\n","voce errou, tente denovo!", "\n" ,"-"*50)
+            print("-" * 50, "\n", "voce errou, tente denovo!", "\n", "-" * 50)
         else:
             print("Voce Acertou. Parabens!!!")
             break
@@ -43,12 +43,16 @@ def jogar():
     while True:
         print("Quantos irmaos edu tem?:")
         print("-" * 50)
-        print(" A: 1" , "\n" , "B: 0" , "\n" , "C: 2")
+        print(" A: 1", "\n", "B: 0", "\n", "C: 2")
         print("-" * 50)
         escolha = input("escolha:").upper()
         if escolha not in ["A"]:
-            print("-" * 50, "\n","voce errou, tente denovo!", "\n" ,"-"*50)
+            print("-" * 50, "\n", "voce errou, tente denovo!", "\n", "-" * 50)
         else:
             print("Voce Acertou. Parabens!!!")
             break
+
+
 jogar()
+
+teste_git = True
